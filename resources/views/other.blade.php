@@ -6,7 +6,7 @@
     <div class="row g-4">
         <div class="col">
             <div>
-                <p>This is another page, with a different content for sure</p>
+                <p class="text-black">This is another page, with a different content for sure</p>
             </div>
         </div>
     </div>
