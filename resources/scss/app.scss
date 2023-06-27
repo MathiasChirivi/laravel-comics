@@ -30,3 +30,183 @@ header img.logo {
 .wInput{
     width: 100px;
 }
+
+.containerImg{
+    height: 750px;
+}
+
+.containerMainImg{
+    background-image: url(../../public/jumbotron.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: grid;
+    color: white;
+}
+
+.itemsComicCentre{
+    height: calc(650px / 2);
+    width: calc(1300px / 6);
+}
+
+.containerItems{
+    width: 1300px;
+}
+
+li img {
+    height: 80%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.containerBlue {
+    background-color: #0282F9;
+    height: 250px;
+    display: grid;
+}
+
+.itemsComic {
+    width: 1300px;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemsComicCentreBlue {
+    width: calc(100% / 5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.imgPartner{
+    width: calc(100%/5);
+    height: 50%;
+}
+
+.containerFooter {
+    background-image: url("/public/footer-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: grid;
+    color: white;
+
+}
+
+.itemsFooter {
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.left {
+    width: calc(100% / 2);
+    height: 500px;
+    display: flex;
+}
+
+.containerVoce {
+    width: calc(100% / 3);
+    font-size: large;
+}
+
+.ItemsComicsVoce {
+    list-style: none;
+    display: grid;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover {
+    color: #0282F9;
+}
+
+.marginTop {
+    margin-top: 70px;
+}
+
+.marginBottom {
+    margin-bottom: 20px;
+}
+
+.right {
+    width: calc(100% / 2);
+    height: 500px;
+    position: relative;
+}
+
+.dcLogo img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.containerFooterFollow {
+    display: grid;
+    background-color: #303030;
+    height: 200px;
+}
+
+.containerFollow {
+    background-color: #303030;
+    margin: 0 auto;
+    width: 1400px;
+    display: grid;
+    position: sticky;
+    z-index: 999999;
+}
+
+.containerItemsFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnFooter {
+    height: 50px;
+    width: 150px;
+    border: 1px solid #0282F9;
+    background-color: #303030;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btnFooter:hover {
+    background-color: #0282F9;
+    color: white;
+    border: 1px solid #0282F9;
+    transition: 1s;
+}
+
+.followUs {
+    color: #0282F9;
+}
+
+.hoverImg {
+    cursor: pointer;
+    opacity: 0.9;
+    transform: scale(0.9);
+}
+
+.hoverImg:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.socialItemsFollow {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
